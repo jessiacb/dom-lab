@@ -134,3 +134,4 @@ var menuLinks = [
     topMenuLinks.forEach(link => link.classList.remove('active'));
     mainEl.innerHTML = `<h1>${e.target.textContent.toUpperCase()}</h1>`;
   }
+  
